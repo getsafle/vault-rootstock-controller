@@ -1,4 +1,4 @@
-# vault-rootstock-controller<code><a href="https://www.docker.com/" target="_blank"><img height="50" src="https://dex-bin.bnbstatic.com/static/images/logo_BNB_Chain.svg"></a></code>
+# vault-rootstock-controller<code><a href="https://www.docker.com/" target="_blank"><img height="100" src="https://rootstock.io/og.png"></a></code>
 
 [![npm version](https://badge.fury.io/js/@getsafle%2Fvault-rootstock-controller.svg)](https://badge.fury.io/js/@getsafle%2Fvault-rootstock-controller) <img alt="Static Badge" src="https://img.shields.io/badge/License-MIT-green"> [![Discussions][discussions-badge]][discussions-link]
 <img alt="Static Badge" src="https://img.shields.io/badge/rootstock_controller-documentation-purple">
