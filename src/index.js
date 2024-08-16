@@ -388,6 +388,18 @@ class KeyringController extends EventEmitter {
     return addrs.map(normalizeAddress);
   }
 
+  async signTransaction(rawTx, privateKey) {
+    const tx = new Tx(rawTx);
+
+    const pkey = Buffer.from(privateKey, "hex");
+
+    tx.sign(pkey);
+
+    const signedTx = `0x${tx.serialize().toString("hex")}`;
+
+    return signedTx;
+  }
+
   /**
    * Get Keyring For Account
    *
