@@ -512,4 +512,8 @@ class KeyringController extends EventEmitter {
   }
 }
 
+const getBalance = async (address, web3) => {
+  const balance = await web3.eth.getBalance(address);
+  return { balance: web3.utils.fromWei(balance, "ether") };
+};
 module.exports = { KeyringController, getBalance };
