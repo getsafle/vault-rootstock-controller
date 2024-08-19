@@ -3,3 +3,4 @@
 ##### Rootstock Keyring Implementation
 
 - Implemented Keyring functionality to manage accounts
+- Implemented functionality to sign a raw transaction
